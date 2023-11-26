@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tiago Trindade</title>
+    <link rel="icon" href="logo.png">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo gradient-text">Tiago Trindade</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">about</a></li>
+          <li><a href="#experience">experience</a></li>
+          <li><a href="#projects">projects</a></li>
+          <li><a href="#contact">contact</a></li>
+          <li><img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="window.open('https://linkedin.com/in/tiagotrindade03/')"
+          /></li>
+          <li><img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="window.open('https://github.com/trindadetiago')"
+          /></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo gradient-text">Tiago Trindade</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/about-pic.JPG" alt="Tiago Trindade profile picture" 
+        class="profile-pic"/>
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title gradient-text">Tiago Trindade</h1>
+        <p class="section__text__p2">A Computer Science Student</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/resume-tiago.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="window.open('https://linkedin.com/in/tiagotrindade03/')"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="window.open('https://github.com/trindadetiago')"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/profile-pic-1.jpg"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>5+ years <br />Programming Languages</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>UFPB - Computer Science B.S (2022-2026) <br />ILAC - Proficiency English (2022-2022)</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              I am an undergraduate student at the Federal University of Paraíba (UFPB) and I'm currently in my third semester. Ever since high school, I have had a keen interest in computer science, particularly in problem-solving and programming, which has motivated me to learn about new technologies even before entering university.
+During my studies, I have been exposed to a wide range of knowledge areas in computer science, including Artificial Intelligence (AI) and Data Science. I was particularly drawn to these fields and became a member of TAIL - the Technology and Artificial Intelligence League - and TRIL Lab, where I work on projects related to AI and data science.
+As a student, I'm always eager to learn new technologies and try to keep up with the latest trends through courses, experiments, and practice. 
+Overall, I am a motivated and curious individual who is passionate about computer science and technology, and is constantly seeking to learn and improve myself. Feel free to reach me out.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="skills">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Skills</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Tools</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Python</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Java</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SQL</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Git</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>C</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HMLT & CSS</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Languages</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Portuguese</h3>
+                  <p>Fluent</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>English</h3>
+                  <p>Fluent</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Spanish</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>French</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+        <div class="experience-details-container">
+          <div class="about-containers">    
+            <div class="details-container-2">
+              <h2 class="experience-sub-title">Areas</h2>
+              <div class="article-container-2">
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Data Science</h3>
+                    <p>Experienced</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Machine Learning</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Generative AI</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Software Development</h3>
+                    <p>Basic</p>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+      </div>
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Curriculum</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Education</h2>
+            <div class="article-container-3">
+              <article>
+                <img
+                  src="./assets/ilac-logo.png"
+                  alt="Experience icon"
+                  class="curriculum-icon"
+                  onclick="window.open('https://www.ilac.com/')"
+                />
+                <div>
+                  <h3>ILAC - International Language Academy of Canada</h3>
+                  <p>English Course (2022-2022)</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/ufpb-logo.png"
+                  alt="Experience icon"
+                  class="curriculum-icon" 
+                  onclick="window.open('https://www.ufpb.br/')"
+                />
+                <div>
+                  <h3>UFPB - Universidade Federal da Paraíba</h3>
+                  <p>BS. Computer Science (2022-2026)</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Experience</h2>
+            <div class="article-container-2">
+              <article>
+                <img
+                  src="./assets/tail-logo.png"
+                  alt="Experience icon"
+                  class="curriculum-icon"
+                  onclick="window.open('https://www.linkedin.com/company/tailufpb')"
+                />
+                <div>
+                  <h3>TAIL</h3>
+                  <p>Member</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/ieee_cs_ufpb-logo.png"
+                  alt="Experience icon"
+                  class="curriculum-icon"
+                  onclick="window.open('https://www.linkedin.com/company/ieee-cs-cis-chapter-at-ufpb')"
+                />
+                <div>
+                  <h3>IEEE CS UFPB</h3>
+                  <p>Member</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/tril-logo.png"
+                  alt="Experience icon"
+                  class="curriculum-icon" 
+                  onclick="window.open('https://tril.ci.ufpb.br/')"
+                />
+                <div>
+                  <h3>TRIL Laboratory</h3>
+                  <p>Data Scientist</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/zoox-logo.png"
+                  alt="Experience icon"
+                  class="curriculum-icon"
+                  onclick="window.open('https://zooxsmart.com/')"
+                />
+                <div>
+                  <h3>Zoox Smart Data</h3>
+                  <p>Data Scientist Intern</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p 
+      class="section__text__p1">
+      <a href="https://linkedin.com/in/tiagotrindade03/">
+        See Everything at Linkedin</a></p>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-1.png"
+                alt="Project 1"
+                class="project-img"
+                onclick="window.open('https://github.com/trindadetiago/TableTop')"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Table Top</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://github.com/trindadetiago/TableTop')"
+              >
+                Github
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-2.png"
+                alt="Project 2"
+                class="project-img"
+                onclick="window.open('https://github.com/NicholasRodrigues/data-structures-visualization-new')"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Data Structures Viewer</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://github.com/NicholasRodrigues/data-structures-visualization-new')"
+              >
+                Github
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-3.png"
+                alt="Project 3"
+                class="project-img"
+                onclick="window.open('https://github.com/trindadetiago')"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Other Projects</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://github.com/trindadetiago')"
+              >
+                Github
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Want to know more?</p>
+      <h1 class="title">Get in Touch</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="tiagotrindade03@gmail.com">trindadtiago@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://linkedin.com/in/tiagotrindade03/">LinkedIn</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/github.png"
+            alt="Github icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://github.com/trindadetiago">Github</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/instagram.png"
+            alt="Instagram icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.instagram.com/tiagotrindade03/">Instagram</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2023 Tiago Trindade. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
