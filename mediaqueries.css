@@ -92,6 +92,7 @@
     }
     .logo {
       font-size: 1.5rem;
+      width: 7rem;
     }
     .nav-links {
       flex-direction: column;
