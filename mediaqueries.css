@@ -1,4 +1,4 @@
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1600px) {
     #profile {
       height: 83vh;
       margin-bottom: 6rem;
@@ -9,6 +9,9 @@
     #contact,
     #projects {
       height: fit-content;
+    }
+    section {
+      height: 130vh;
     }
   }
   
